@@ -1,0 +1,18 @@
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4px;
+}
+
+.card-footer-rating{
+    background-color: #E6C942;
+    color: white;
+    align-self: center;
+    padding: 4px;
+    font-size: 12px;
+}
+
+/*.cart{
+    width: 12em;
+}*/
