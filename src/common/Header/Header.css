@@ -1,0 +1,72 @@
+.app-header {
+    background-color: #263238;
+    padding: 16px 16px 16px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.app-logo{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.account-circle {
+    padding: 0px 0px 0px 0px;
+}
+
+.searchbox{
+    padding: 2px 4px;
+    display: flex;
+    align-items: center;
+    width: 300px !important;
+    border-radius: 4px !important;
+    margin-right: 16px;
+    color: white;
+}
+
+#loginContactno, #loginpassword, #firstname, #lastname, #email, #password, #contactno {
+    width: 250px;
+}
+
+.tabs {
+    margin-bottom: 20px;
+}
+
+.dispNone {
+    display: none;
+}
+
+.dispBlock {
+    display: block;
+}
+
+.red {
+    color: red;
+}
+
+.MuiBadge-badge{
+    z-index: 0 !important;
+}
+
+.searchField.Mui-focused::before,
+.searchField.Mui-focused::after{
+   border-color:white !important;
+} 
+.searchField.Mui-focused .MuiInputBase-input{
+   color: white !important;
+}
+.loggedInButton{
+    color:white !important;
+}
+
+@media only screen and (min-width: 600px) {
+    .login {
+      text-align: right;
+    }
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+}
+
