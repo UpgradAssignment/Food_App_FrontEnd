@@ -1,0 +1,28 @@
+#menu-state .MuiMenu-list {
+    outline: none;
+    height: 200px;
+    overflow: auto;
+}
+
+.rightIcon{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+.greenBtn{
+    color: #328A59;
+}
+
+.hightLightAddress{
+    border: #E24574 1px solid;
+    box-shadow: 1px 1px 1px #E24574;
+}
+
+.hightLightPayment{
+    color: blue;
+}
+
+.radioButtons .MuiTypography-body1{
+    font-size: 14px !important;
+}
