@@ -372,7 +372,6 @@ class Header extends Component {
                                         <AccountCircle className="account-circle"/>LOGIN
                                     </Button>
                                 }
-                                                                
                             </div>
 
                         </Grid>
